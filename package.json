@@ -1,0 +1,14 @@
+{
+  "name": "andradec-resume",
+  "version": "0.0.1",
+  "description": "Resume of Christopher Andrade",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server web -c-1"
+  },
+  "author": "chrisjandrade@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
