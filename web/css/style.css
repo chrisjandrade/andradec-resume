@@ -59,7 +59,16 @@ ul.unstyled {
   margin-bottom: 14px;
 }
 
+.skills {
+  padding: 12px 12px;
+}
+
+.skills h1 {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
 .resume-body {
   margin-left: 274px;
-  
 }
