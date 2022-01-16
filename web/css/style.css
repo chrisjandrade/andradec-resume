@@ -1,6 +1,15 @@
 body {
   padding: 0 0;
-  margin: 0 0 ;
+  margin: 0 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.side-bar {
+  padding: 0 0;
+  width: 274px;
+  float: left;
+  background: rgb(237, 237, 237);
+  height: 100%;
 }
 
 .resume-header {
@@ -8,22 +17,49 @@ body {
   background: rgb(46, 46, 46);
   color: #fff;
   padding: 12px 12px;
-  width: 200px;
-  display: inline-block;
-}
-
-.resume-header h1 { font-size: 24px; }
-
-.resume-header h2 { 
-  font-size: 16px;
+  width: 250px;
+  float: left;  
   margin-bottom: 10px;
 }
 
-.resume-header h2 em { font-weight: bold; }
+.resume-header h1 { 
+  font-size: 24px; 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
 
-.resume-header ul {
-  font-size: 12px;
+.resume-header h2 { 
+  font-size: 16px;
+  margin-bottom: 13px;
+}
+
+.resume-header h2 em { 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul.unstyled {
+  font-size: 14px;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.education {
+  padding: 12px 12px;
+}
+
+.education h1 { 
+  font-size: 18px; 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.education ul.unstyled>li {
+  margin-bottom: 14px;
+}
+
+.resume-body {
+  margin-left: 274px;
+  
 }
