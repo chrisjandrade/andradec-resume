@@ -38,6 +38,10 @@ body {
   font-size: 20px;
 }
 
+.resume-header ul>li>i {
+  margin-right: 8px;
+}
+
 ul.unstyled {
   font-size: 14px;
   list-style-type: none;
@@ -59,6 +63,10 @@ ul.unstyled {
   margin-bottom: 14px;
 }
 
+.education ul.unstyled>li>i {
+  margin-right: 8px;
+}
+
 .skills {
   padding: 12px 12px;
 }
@@ -69,6 +77,57 @@ ul.unstyled {
   text-transform: uppercase;
 }
 
+.skills ul.skills-list {
+  margin-right: 28px;
+}
+
 .resume-body {
   margin-left: 274px;
+  padding: 12px 12px;
+  max-width: 1000px;
+}
+
+.resume-body h1 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0;
+}
+
+.resume-body h2 {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0;
+}
+
+.resume-body h3 {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0;
+}
+
+.resume-body .time-date {
+  font-size: 12px;
+  width: 200px;
+}
+
+.resume-body .time-date .time i,
+.resume-body .time-date .date i {
+  margin-right: 8px;
+}
+
+.resume-body p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.resume-body ul.work-experience {
+  margin: 0 0;
+  font-size: 14px;
+}
+
+.pull-right {
+  float: right;
 }
