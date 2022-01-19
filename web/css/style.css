@@ -95,16 +95,18 @@ ul.unstyled {
 }
 
 .resume-body h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin: 0 0;
 }
 
 .resume-body h3 {
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(33, 33, 33);
   margin: 0 0;
 }
 
@@ -125,7 +127,8 @@ ul.unstyled {
 
 .resume-body ul.work-experience {
   margin: 0 0;
-  font-size: 14px;
+  font-size: 16px;
+  padding-left: 20px;
 }
 
 .pull-right {
