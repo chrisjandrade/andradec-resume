@@ -173,6 +173,7 @@ ul.unstyled {
     .skills ul.skills-list li div.pull-right {
       display: inline-block;
       margin-left: 8px;
+      float: unset;
     }
 
     .resume-body {
