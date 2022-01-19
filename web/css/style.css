@@ -5,6 +5,10 @@ html, body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .side-bar {
   position: fixed;
   padding: 0 0;
@@ -18,9 +22,11 @@ html, body {
   background: rgb(46, 46, 46);
   color: #fff;
   padding: 12px 12px;
-  width: 250px;
-  float: left;  
   margin-bottom: 10px;
+}
+
+.resume-header a {
+  color: white;
 }
 
 .resume-header h1 { 
@@ -86,6 +92,8 @@ ul.unstyled {
   margin-left: 274px;
   padding: 12px 12px;
   max-width: 1000px;
+  border-left: 1px dashed rgb(28, 28, 28);
+  border-right: 1px dashed rgb(28, 28, 28);
 }
 
 .resume-body h1 {
@@ -134,4 +142,52 @@ ul.unstyled {
 
 .pull-right {
   float: right;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) { 
+
+    .side-bar ul>li>i {
+      margin-right: 25px;
+    }
+
+    .side-bar {
+      position: unset;
+      width: 100%;
+      height: unset;
+      text-align: center;
+      background-color: unset;
+      border-bottom: 1px dashed rgb(28, 28, 28);
+    }
+
+    .side-bar ul>li>i {
+      margin-right: 25px;
+    }
+
+    .education ul.unstyled>li>i {
+      margin-right: 25px;
+    }
+
+    .skills ul.skills-list li div.pull-right {
+      display: inline-block;
+      margin-left: 8px;
+    }
+
+    .resume-body {
+      margin-left: 0;
+      padding-left: 10%;
+      padding-right: 10%;
+      border-left: unset;
+      border-right: unset;
+    }
+
+    .resume-body h2 {
+      font-size: 15px;
+    }
+
+    .resume-body h3 {
+      font-size: 12px;
+    }
 }
